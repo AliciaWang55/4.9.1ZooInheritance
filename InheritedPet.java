@@ -21,7 +21,7 @@ public class InheritedPet
 
     System.out.println("my canary");
     Canary myCanary = new Canary();
-    myCanary.setName("Juliette");
+    myCanary.setName("Mercutio");
     myCanary.fly();
     myCanary.sing();
     myCanary.eat();
@@ -29,7 +29,7 @@ public class InheritedPet
 
     System.out.println("my parakeet");
     Parakeet myParakeet = new Parakeet();
-    myParakeet.setName("Juliette");
+    myParakeet.setName("Tybalt");
     myParakeet.fly();
     myParakeet.talk();
     myParakeet.eat();
