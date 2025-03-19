@@ -19,5 +19,20 @@ public class InheritedPet
     myDog.eat();
     myDog.sleep();
 
+    System.out.println("my canary");
+    Canary myCanary = new Canary();
+    myCanary.setName("Juliette");
+    myCanary.fly();
+    myCanary.sing();
+    myCanary.eat();
+    myCanary.sleep();
+
+    System.out.println("my parakeet");
+    Parakeet myParakeet = new Parakeet();
+    myParakeet.setName("Juliette");
+    myParakeet.fly();
+    myParakeet.talk();
+    myParakeet.eat();
+    myParakeet.sleep();
   }
 }
